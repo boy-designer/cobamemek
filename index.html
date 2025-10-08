@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selera Nusantara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/logo.jpeg" alt="Logo Restoran">
+        <span>Selera Nusantara</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Welcome to Selera Nusantara</h1>
+      <p>the most delicious restaurant in Indonesia</p>
+      <a href="#menu" class="btn">Our Menu</a>
+    </div>
+    <!-- Canvas animasi diposisikan di belakang -->
+    <canvas id="bgAnimation"></canvas>
+  </header>
+
+
+  <!-- food Menu -->
+  <section id="menu" class="menu">
+    <h2>Food Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="image/mie ayam.jpeg" alt="">
+        <h3>Mie Ayam</h3>
+        <p>Rp 10.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Mie ayam, mie kenyal dengan ayam berbumbu gurih manis dan kuah kaldu hangat.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/nasi goreng.jpeg" alt="">
+        <h3>Nasi Goreng</h3>
+        <p>Rp 12.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi goreng khas Indonesia dengan rasa gurih, bumbu rempah, serta topping lezat.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/ketoprak.jpg" alt="">
+        <h3>Ketoprak</h3>
+        <p>Rp 17.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Ketoprak berisi lontong, tahu, bihun, sayur segar, disiram saus kacang gurih manis.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/nasi yellow.jpg" alt="">
+        <h3>Nasi Kuning</h3>
+        <p>Rp 10.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi kuning harum berbumbu, disajikan dengan lauk pauk tradisional khas Indonesia.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/Ayam geprek.jpg" alt="">
+        <h3>Ayam Geprek</h3>
+        <p>Rp 12.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi kuning harum berbumbu, disajikan dengan lauk pauk tradisional khas Indonesia.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/Nasi lele.jpg" alt="">
+        <h3>Pecel Lele</h3>
+        <p>Rp 15.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi kuning harum berbumbu, disajikan dengan lauk pauk tradisional khas Indonesia.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/Soto Ayam.jpg" alt="">
+        <h3>Soto Ayam</h3>
+        <p>Rp 8.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi kuning harum berbumbu, disajikan dengan lauk pauk tradisional khas Indonesia.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/Sate padang.jpg" alt="">
+        <h3>Sate Padang</h3>
+        <p>Rp 15.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Nasi kuning harum berbumbu, disajikan dengan lauk pauk tradisional khas Indonesia.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Drink Menu -->
+  <section id="menu" class="menu">
+    <h2>Drink Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="image/jus buah.jpeg" alt="">
+        <h3>Jus Buah</h3>
+        <p>Rp 8.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Jus buah sehat, segar, manis alami, penuh vitamin dan menyegarkan badan.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/macha.jpeg" alt="">
+        <h3>Matcha Latte</h3>
+        <p>Rp 15.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Matcha latte adalah minuman teh hijau Jepang dengan susu segar lembut manis.</p>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/coffee.jpeg" alt="">
+        <h3>Coffee Latte</h3>
+        <p>Rp 12.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Kopi latte adalah minuman espresso berpadu susu hangat, lembut dan creamy.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="image/esteh.jpeg" alt="">
+        <h3>Ice Tea</h3>
+        <p>Rp 7.000</p>
+        <button class="detail-btn">Detail</button>
+        <div class="detail-text">
+          <p>Es teh adalah minuman teh dingin manis segar, pas untuk segala suasana.</p>
+          <button class="close-btn">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- About Us -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>Anggota Kelompok Selera Nusantara</p>
+    <div class="team">
+      <div class="card">
+        <img src="image/akram.jpg" alt="Member 1">
+        <h3>M.Akram Khasyaif</h3>
+        <p>Script.JS</p>
+      </div>
+      <div class="card">
+        <img src="image/davin.jpg" alt="Member 2">
+        <h3>Davin Adi Pratama</h3>
+        <p>Style CSS</p>
+      </div>
+      <div class="card">
+        <img src="image/fajar.jpg" alt="Member 3">
+        <h3>M.Fajar Rahmadani</h3>
+        <p>Style CSS</p>
+      </div>
+      <div class="card">
+        <img src="image/boy.jpg" alt="Member 4">
+        <h3>Boy Aprilian S</h3>
+        <p>HTML & CSS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact" class="footer">
+    <h2>Contact Us</h2>
+    <p>Email: AttackOnTitan@resto.com</p>
+    <p>Phone: 0822-0942-2112</p>
+    <p style="margin-top:30px; font-size:0.9rem;">&copy; 2025 Selera Nusantara. All rights reserved.</p>
+  </footer>
+
+</body>
+
+<script>
+  // Background animation dengan canvas (bubbles effect)
+  const canvas = document.getElementById("bgAnimation");
+  const ctx = canvas.getContext("2d");
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  let particles = [];
+
+  class Particle {
+    constructor() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.size = Math.random() * 6 + 2;
+      this.speedX = (Math.random() - 0.5) * 0.5;
+      this.speedY = (Math.random() - 0.5) * 0.5;
+    }
+    update() {
+      this.x += this.speedX;
+      this.y += this.speedY;
+
+      // bouncing effect biar ga keluar layar
+      if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+      if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+    }
+    draw() {
+      ctx.fillStyle = "rgba(255,255,255,0.6)";
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function init() {
+    particles = [];
+    for (let i = 0; i < 80; i++) {
+      particles.push(new Particle());
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => {
+      p.update();
+      p.draw();
+    });
+    requestAnimationFrame(animate);
+  }
+
+  init();
+  animate();
+
+  window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    init();
+  });
+
+  // Reveal animation for About Us cards
+  const cards = document.querySelectorAll(".card");
+
+  function revealCards() {
+    const triggerBottom = window.innerHeight * 0.85;
+    cards.forEach(card => {
+      const cardTop = card.getBoundingClientRect().top;
+      if (cardTop < triggerBottom) {
+        card.classList.add("show");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", revealCards);
+  revealCards();
+
+  // Toggle detail menu
+  const detailBtns = document.querySelectorAll(".detail-btn");
+  const closeBtns = document.querySelectorAll(".close-btn");
+
+  detailBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const parentCard = btn.parentElement;
+      parentCard.classList.add("active");
+    });
+  });
+
+  closeBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const parentCard = btn.closest(".menu-item");
+      parentCard.classList.remove("active");
+    });
+  });
+</script>
+
+</html>
